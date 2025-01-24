@@ -6,7 +6,7 @@ namespace Tyuiu.KolesnikovMN.Sprint6.Task0.V9.Lib
     {
         public double Calculate(int x)
         {
-            return (4.0 - Math.Pow(x, 3)) / (x * x);
+            return Math.Round((4.0 - Math.Pow(x, 3)) / (x * x), 3);
         }
     }
 }

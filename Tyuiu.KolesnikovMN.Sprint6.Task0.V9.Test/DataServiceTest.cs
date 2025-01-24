@@ -3,16 +3,16 @@ using Tyuiu.KolesnikovMN.Sprint6.Task0.V9.Lib;
 namespace Tyuiu.KolesnikovMN.Sprint6.Task0.V9.Test;
 
 [TestClass]
-public class DataServiceTest
+public sealed class DataServiceTest
 {
     [TestMethod]
     public void CalcValid()
     {
-        DataService ds = new();
+        DataService ds = new DataService();
 
-        int x = 1;
-        double res = ds.Calculate(x);
+        double res = ds.Calculate(3);
+        double wait = -2.556;
 
-        Assert.AreEqual(res, 3.0); 
+        Assert.AreEqual(res, wait); 
     }
 }
