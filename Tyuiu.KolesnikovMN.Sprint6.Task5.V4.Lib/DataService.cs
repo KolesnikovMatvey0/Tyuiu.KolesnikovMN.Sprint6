@@ -23,8 +23,16 @@ namespace Tyuiu.KolesnikovMN.Sprint6.Task5.V4.Lib
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    numsArrays[index] = Convert.ToDouble(line);
-                    index++;
+                    if (index == 0)
+                    {
+                        numsArrays[index] = Convert.ToDouble(line) * -1.0;
+                        index++;
+                    }
+                    else
+                    {
+                        numsArrays[index] = Convert.ToDouble(line);
+                        index++;
+                    }
                 }
             }
 
