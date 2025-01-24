@@ -15,7 +15,7 @@ namespace Tyuiu.KolesnikovMN.Sprint6.Task6.V29.Lib
             
             for (int i = 0; i < matrix.GetLength(0); i++)
             {
-                matrix[i, 4] = fifthRow[i];
+                matrix[i, 4] = fifthRow[i]; 
             }
             return matrix;
         }
