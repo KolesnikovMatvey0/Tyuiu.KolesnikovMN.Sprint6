@@ -59,6 +59,7 @@
             pictureBoxFormula_KMN.Size = new Size(105, 65);
             pictureBoxFormula_KMN.TabIndex = 1;
             pictureBoxFormula_KMN.TabStop = false;
+            pictureBoxFormula_KMN.Click += pictureBoxFormula_KMN_Click;
             // 
             // textBoxGroup_KMN
             // 

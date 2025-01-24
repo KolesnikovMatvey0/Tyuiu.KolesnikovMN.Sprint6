@@ -35,5 +35,10 @@ namespace Tyuiu.KolesnikovMN.Sprint6.Task0.V9
         {
             MessageBox.Show("Таск 0 выполнил студент группы РППб-24-1 Колесников Матвей Николаевич", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void pictureBoxFormula_KMN_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
