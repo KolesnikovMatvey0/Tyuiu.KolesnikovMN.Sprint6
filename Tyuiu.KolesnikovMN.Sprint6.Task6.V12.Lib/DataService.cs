@@ -1,7 +1,8 @@
-﻿
+﻿using tyuiu.cources.programming.interfaces.Sprint6;
+
 namespace Tyuiu.KolesnikovMN.Sprint6.Task6.V12.Lib
 {
-    public class DataService
+    public class DataService: ISprint6Task6V12
     {
         public string CollectTextFromFile(string path)
         {
